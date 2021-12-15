@@ -2,6 +2,11 @@
 在使用git进行版本控制的前提下。提交时，保证默认提交信息开头。需要自己push
 
 ## 如何使用 
+#### 准备工作
+* newBranch.sh 和 newBranchCommit.sh 复制到项目文件夹内
+* .gitignore 中加入 branchLog(记录分支和信息开头)
+
+
 #### 创建分支 && 指定提交信息开头(newBranch.sh)
 `sh newBranch.sh "新分支名称" "信息开头"`
 
